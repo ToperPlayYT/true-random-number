@@ -38,7 +38,7 @@ gen.addEventListener("click", function() {
             min.value = parseInt("0")
         }
         if(max.value == "") {
-            max.value = parseInt("100")
+            max.value = parseInt("10")
         }
         result_num.innerHTML = `${Math.randint(min.value, max.value)} <br> <span style="font-size:12px">${date}</span>`;
     }
